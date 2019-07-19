@@ -3,7 +3,7 @@
 For more, pls refer to
 [CVPR 2019 Paper](https://arxiv.org/abs/1905.02884) | [Project Page](https://nbei.github.io/video-inpainting.html) | [YouTube](https://www.youtube.com/watch?v=LIJPUsrwx5E) | [BibeTex](#citing)
 
-<img src="https://github.com/nbei/Deep-Flow-Guided-Video-Inpainting/blob/master/gif/captain.gif" width="860"/>
+<img src="./gif/captain.gif" width="860"/>
 
 ## environment
 
@@ -50,10 +50,13 @@ python tools/infer_flownet2.py --frame_dir xxx/video_name/frames
 ```
 python tools/frame_inpaint.py --test_img xxx.png --test_mask xxx.png --image_shape 512 512
 ```
-[frame-00000](./demo/frame_inpaint/00000.jpg) 
-[mask-00000](./demo/frame_inpaint/00000.png) 
-[result-00000-img_shape-512](./demo/frame_inpaint/res_00000.png) 
-[result-00000-img_shape-ori](./demo/frame_inpaint/res_00000_ori.png) 
+<center class="half">
+    <img src="./demo/frame_inpaint/00000.jpg" width="500"/><img src="./demo/frame_inpaint/00000.png" width="500"/>
+</center>
+
+result：
+
+<img src="./demo/frame_inpaint/res_00000_ori.png" width="500"/>
 
 
 
